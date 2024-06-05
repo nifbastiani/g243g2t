@@ -6,15 +6,35 @@
     <title>Cápsula do Tempo</title>
 </head>
 <link rel="stylesheet" href="./estilo/base.css">
-
+<script src="./script/script.js"></script>
 <body>
-    <header>
-        <span id="textoHeader"></span>
-    </header>
-    <button id="btnTeste">Teste</button>
+  <header class="barra">
+<div class="barra_conteudo">
+    <div class="barra_info">
+        <h1>Cápsula do Tempo - 3<sup>°</sup>G</h1>     
+    </div>
+<div class="barra_cadastro">
+     <a href="cadastro.html"></a><button class="btn">Cadastro</button>       
+    </div>
     
-
-
-    <script src="./script/script.js"></script>
+<div class="barra_login">
+    <div class="form_base">
+        <form class="login">
+            <input type="text" id="usuario" name="usuario" class="login_usuario" >
+            <label for="usuario">Usuário</label>
+            <input type="password" id="senha" name="senha" class="login_usuario">
+            <label for="senha">Senha</label>
+            <button type="submit">Logar</button>
+        </form>
+    </div>    
+    <br>   
+    <div class="form_esqueci_senha">
+        <a href="esqueci_senha.html" style="color: #0b6091">Esqueci a Senha </a>
+    </div>
+    
+    </div>
+    
+</div>
+  </header> 
 </body>
 </html>
