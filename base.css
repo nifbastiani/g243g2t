@@ -10,9 +10,6 @@
     background-color:var(--cor-fundo-barra);
     width: 100vw;
     height: 70px;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
     color: rgb(0, 0, 0);
     box-shadow: 3px  5px 5px rgb(34, 131, 160);
 }
